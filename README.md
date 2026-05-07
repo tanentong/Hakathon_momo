@@ -1,7 +1,9 @@
-**Data Source: **
+**Data Source:**
 We use the World Bank's World Development Indicators (WDI, Wide Format) as the main dataset, plus EM-DAT disaster records and industry sources (Swiss Re, Munich Re, OECD, World Bank).
 
 **Folder Structure**
+
+```
 .
 ├── README.md                          ← You are here
 ├── Code/
@@ -20,8 +22,10 @@ We use the World Bank's World Development Indicators (WDI, Wide Format) as the m
     ├── Output_WS3/                    ← Charts from WS3
     ├── Output_WS4/                    ← Charts from WS4
     └── Output_WS5/                    ← Interactive dashboard
+```
 
 **How to Run**
+
 1. Click the GitHub link and download the repo.
 2. Go into the Data/ folder and unzip WB_WDI_WIDEF.csv.zip (keep it inside the Data/ folder).
 3. Open Code/Team_momo_Full_Code.ipynb.
