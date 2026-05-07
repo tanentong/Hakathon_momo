@@ -15,11 +15,11 @@ We use the World Bank's **World Development Indicators (WDI, Wide Format)** as t
 .
 ├── README.md                          ← You are here
 ├── Code/
-│   ├── 01_WS1_Code.ipynb              ← Data loading, cleaning, EDA, indicator selection
-│   ├── 02_WS2_Code.ipynb              ← Fixed-effects panel regression + XGBoost comparison
-│   ├── 03_WS3_Code.ipynb              ← Thailand vs Philippines disaster claims analysis
-│   └── 04_WS4_Code.ipynb              ← BAU vs NDC mitigation scenario, 2030 projection
-│   └── 05_WS5_Code.ipynb              ← Dashboard
+│   ├── WS1_Code.ipynb                 ← Data loading, cleaning, EDA, indicator selection
+│   ├── WS2_Code.ipynb                 ← Fixed-effects panel regression + XGBoost comparison
+│   ├── WS3_Code.ipynb                 ← Thailand vs Philippines disaster claims analysis
+│   └── WS4_Code.ipynb                 ← BAU vs NDC mitigation scenario, 2030 projection
+│   └── WS5_Code.ipynb                 ← Dashboard
 ├── Data/
 │   ├── WB_WDI_WIDEF.csv.zip           ← .zip file because too large to upload
 │   └── EMDAT_THA_PHL.csv              
@@ -32,7 +32,7 @@ We use the World Bank's **World Development Indicators (WDI, Wide Format)** as t
 
 ```
 
-> **Note on the zipped file.** `data/WB_WDI_WIDEF.csv.zip` exceeds GitHub's recommended file size when uncompressed. **Unzip it into the `data/` folder before running notebook 01.** No data is downloaded over the network at runtime — everything is local.
+> **Note on the zipped file.** `data/WB_WDI_WIDEF.csv.zip` exceeds GitHub's recommended file size when uncompressed. **Unzip it into the `data/` folder before running notebook 01.** 
 
 ---
 
@@ -73,7 +73,7 @@ Open Jupyter and run the notebooks sequentially:
 4. `Output_WS4.ipynb` — BAU and mitigation projections to 2030
 5. `Output_WS5.ipynb` — Interactive Dashboard
 
-Each notebook is self-contained after running notebook 01 (which generates the cleaned panel used downstream).
+Each notebook is self-contained after running notebook WS1_Code.ipynb (which generates the cleaned panel used downstream).
 
 ---
 
